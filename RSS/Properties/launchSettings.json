@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "RSS (Package)": {
+      "commandName": "MsixPackage",
+      "doNotLaunchApp": true
+    },
+    "RSS (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
