@@ -46,7 +46,7 @@ public class AddRssPage : DynamicListPage, IDisposable
                                         result.MetaData.LastUpdatedTime);
 
                                 _results = [];
-                                RaiseItemsChanged(0);
+                                RaiseItemsChanged();
                             })
                             {
                                 Icon = added ? new IconInfo("\uecc9") : new IconInfo("\ued0e"),

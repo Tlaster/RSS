@@ -22,7 +22,7 @@ public class RssFetcher
 
         return new UiFeed(
             new UiFeedMetaData(response.Title.Text,
-                response.Subtitle.Text,
+                response.Subtitle?.Text ?? string.Empty,
                 image,
                 response.LastUpdatedTime,
                 url
